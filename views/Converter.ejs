@@ -1,0 +1,40 @@
+
+<% include header.ejs %>
+
+<body background = "css\backpic.png"  >
+    <link rel="stylesheet" href="css\game.css">
+      
+  <nav class="navbar navbar-inverse">
+   <div class="container-fluid">
+    <div class="navbar-header">
+    
+        <a class="navbar-brand" href="#">Alladi_A01</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="/index">Home</a></li>
+        <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="/Converter">Converter<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/Converter">weight converter</a></li>
+         </ul>
+        </li>
+        <li class="active" ><a href="#">Contact</a></li>
+    </ul> 
+  </li> -->
+  <li class="active"><a href="/Converter">Weight Converter</a></li>
+  <li><a href="/Contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+<h1> weightConverter </h1>
+<h3>now u can enter your weight here </h3>
+<p>
+<label>Kilograms</label>
+<input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)">
+</p>
+<p>Pounds: <span id="outputPounds"></span></p>
+
+
+
+<p>Grams: <span id="outputGrams"></span></p>
+
+<% include footer.ejs %>
