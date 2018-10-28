@@ -1,19 +1,26 @@
 {
-    "name": "a03",
+    "name": "alladi_mypage",
     "version": "0.0.1",
-    "description": "resume app",
+    "description": "Resume website",
     "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
     "dependencies": {
+        "body-parser": "latest",
+        "cool-ascii-faces": "^1.3.4",
+        "ejs": "latest",
         "express": "latest",
         "morgan": "latest",
-        "body-parser": "latest",
-        "ejs": "latest"
+        "nconf": "latest",
+        "nodemailer": "latest",
+        "nodemailer-mailgun-transport": "latest"
     },
-    "author": "sri anurag sai alladi",
-    "homepage": "https://bitbucket.org/S533567/",
+    "author": "Sri Anurag Sai Alladi",
+    "homepage": "https://github.com/S533567/",
     "repository": {
         "type": "git",
-        "url": "https://bitbucket.org/S533567/"
+        "url": "https://github.com/S533567/"
     },
     "license": "Apache-2.0"
 }
