@@ -40,10 +40,10 @@ app.get('/index', function (req, res) {
   res.render('index.ejs')
 })
 app.get('/game', function (req, res) {
-  res.render('game.ejs')
+  res.render('Converter.ejs')
 })
 app.get('/contact', function (req, res) {
-  res.render('contact.ejs')
+  res.render('Contact.ejs')
 })
 
 
