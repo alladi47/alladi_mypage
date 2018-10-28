@@ -39,7 +39,7 @@ app.get('/', function (req, res) {
 app.get('/index', function (req, res) {
   res.render('index.ejs')
 })
-app.get('/game', function (req, res) {
+app.get('/weight converter', function (req, res) {
   res.render('Converter.ejs')
 })
 app.get('/contact', function (req, res) {
